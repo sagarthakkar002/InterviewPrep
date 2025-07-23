@@ -1,4 +1,5 @@
 /**
+ * https://leetcode.com/problems/two-sum/
  * Given an array of integers nums and an integer target, 
  * return indices of the two numbers such that they add up to target.
 
@@ -40,7 +41,7 @@ function twoSum(arr, target) {
 
 
 // const arr = [2, 7, 11, 15]
-const arr=[3,3]
+const arr = [3, 3]
 const target = 6;
 const result = twoSum(arr, target);
 console.log({ result })
